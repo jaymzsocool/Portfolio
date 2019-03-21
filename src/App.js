@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import PersonalInfo from './components/PersonalInfo'
+import ProjectDisplay from './components/ProjectDisplay'
 import './App.scss';
 
 class App extends Component {
@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <PersonalInfo />
+        <ProjectDisplay />
       </div>
     );
   }

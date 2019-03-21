@@ -5,7 +5,7 @@ class PersonalInfo extends Component {
   render() {
     return (
       <div>
-        <img src={Me} />
+        <img src={Me} alt ="me"/>
         <div>
           <div>James McRae</div>
           <div>james.mcraejr@gmail.com</div>
