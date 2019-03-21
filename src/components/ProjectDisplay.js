@@ -5,11 +5,13 @@ import { projects } from "../data/projects";
 class ProjectDisplay extends Component {
   render() {
     return (
-      <div>
-        <div>Projects</div>
-        {projects.map(p => (
-          <ProjectCard {...p} key={p.id} />
-        ))}
+      <div className = "projects-owrap">
+        <div className = "projects-title">Projects</div>
+        <div className = "projects-iwrap">
+          {projects.map(p => (
+            <ProjectCard {...p} key={p.id} />
+          ))}
+        </div>
       </div>
     );
   }
